@@ -1,1 +1,2 @@
-# Learn-Python
+# Learn-Python-with-Mubashir
+I'm passinate python programmer and welcome to learning python with Mubashir. This repository is designed for students, teachers and researcher who is beginner and want to excel in their field. Whethere you're just starting career as passionate programmer or looking to sharpend your skills, this series provide structured, hands on learning through **Jupyter Notebook** covering different topics.
