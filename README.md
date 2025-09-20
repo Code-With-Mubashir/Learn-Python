@@ -47,6 +47,15 @@ Operators are symbols or special words that are used to perform operatios on var
 ### Common Types of Operators:
 **1. Arithmetic Operators**
           Arithmetic operators are used to perform basic mathematic operations.
+| operator | Description    | Example     |
+|----------|---------------|-------------|
+| +        | Addition      | 3 + 1 = 4   |
+| -        | Subtraction   | 2 - 1 = 1   |
+| *        | Multiplication| 4 * 2 = 8   |
+| /        | Division      | 8 / 2 = 4   |
+| %        | Modulus       | 5 % 2 = 1   |
+| **       | Exponentation | 2 ** 3 = 8  |
+
             | operator | Description      | Example    |
           |------------|-------------     |---------   |
           |    +       |  Addition        |3 + 1 = 4   |
@@ -59,7 +68,7 @@ Operators are symbols or special words that are used to perform operatios on var
 **2.Comparison operators**
           Comparison operators are used to compare two values.
            | operator | Description | Example |
-          |----------|-------------|---------|
+           |----------|-------------|---------|
           |    ==    |  Equal to   | 5 == 5 |
           |    !=     | Not Equal to| 5 != 5 |
           |    >     | Greater than| 4 > 2 |
