@@ -46,7 +46,7 @@ Operators are symbols or special words that are used to perform operatios on var
 
 ### Common Types of Operators:
 **1. Arithmetic Operators:**
-          Arithmetic operators are used to perform basic mathematic operations.
+          Arithmetic operators are used to perform basic mathematic operations.Some Common Logical Operators are
 | operator | Description    | Example     |
 |----------|---------------|-------------|
 | +        | Addition      | 3 + 1 = 4   |
@@ -58,7 +58,7 @@ Operators are symbols or special words that are used to perform operatios on var
 
            
 **2.Comparison operators:**
-        Comparison operators are used to compare two values.
+        Comparison operators are used to compare two values.Some Common Logical Operators are
 | operator | Description        | Example  |
 |----------|--------------------|----------|
 | ==       | Equal to           | 5 == 5   |
@@ -70,7 +70,7 @@ Operators are symbols or special words that are used to perform operatios on var
 
 **3.Logical Operators:**
          Logical Operators are used to combine and invert boolean values.
-         Common Logical Operators
+         Some Common Logical Operators are
 | Operator | Name        | Description                              | Example          | Result |
 |----------|-------------|------------------------------------------|------------------|--------|
 | `&&`     | Logical AND | True if **both** conditions are true     | `true && false`  | false  |
