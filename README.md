@@ -35,7 +35,7 @@ Use in to check one string is inside another. It is very helpful to search in te
 We can add values into strings f-string or .format().
 ## 🧑‍💻 What is User Input?
   Let's talk about user input in very easy way. 
-  User input means getting information from the user using the program. We use the input() function to do this in python.<.br>
+  User input means getting information from the user using the program. We use the input() function to do this in python.
   
                                         age = int(input("Enter your age: "))
                                                     print(age + 5)
