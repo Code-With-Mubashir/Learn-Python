@@ -1,2 +1,8 @@
 # Learn-Python-with-Mubashir
 I'm passionate python programmer and welcome to learning python with Mubashir. This repository is designed for students, teachers and researcher who is beginner and want to excel in their field. Whether you're just starting career as passionate programmer or looking to sharpend your skills, this series provide structured, hands on learning through **Jupyter Notebook** covering different topics.
+## String
+Strings are sequence of numbers, letters, symbols and spaces enclosed into single, double or triple quotes. Strings are ordered collection, immutable once created it cannot be changed, strings are primarily used to strore and manupulate textual data.
+- Single Quote 'Hellow World'
+- Double Quote "Hello World!"
+- Triple Quote ''' This is your Second Assignment'''
+### String-Operations
