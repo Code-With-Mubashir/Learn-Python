@@ -79,7 +79,29 @@ Operators are symbols or special words that are used to perform operatios on var
 | `!`      | Logical NOT | Inverts the truth value                   | `!true`          | false  |
 
          
-  
+  # Operators & conditions
+  ## Identity operators
+  An identity operators determines whether two variables or values refer to the same object in memory.
+    In python, the primary identity operators are:
+    **is**: This operator returns **True** if both operands refer to the exact same object in memory, and **False** otherwise.
+   **is not**: This operator returns **True** if both operands refer to different objects in memory, and **False** otherwise.
+
+  ## Membership operators
+  Membership operators are used to test for the presence of a value within a sequence. They determine if a specific element or substring exists within a larger collection of data. These operators are commonly used in programming languages like Python. 
+  In Python, the two primary membership operators are:
+**in operator:** This operator evaluates to **True** if the value on its left operand is found within the sequence on its right operand. Otherwise, it evaluates to **False**.
+**not in operator:** This operator is the inverse of in. It evaluates to **True** if the value on its left operand is not found within the sequence on its right operand. Otherwise, it evaluates to **False**.
+
+## Bitwise Operator
+A bitwise operator performs a logical or bitwise operation on the individual bits of integers. Common bitwise operators include AND (&), OR (|), XOR (^), and NOT (~), which act on the binary representations of numbers to manipulate them at the bit level for tasks like setting flags, encryption, and data compression.  
+**Common Bitwise Operators:**
+**Bitwise AND (&):** Returns 1 only if both corresponding bits are 1. 
+**Bitwise OR (|):** Returns 1 if at least one of the corresponding bits is 1. 
+**Bitwise XOR (^):** Returns 1 if the corresponding bits are different (one is 0 and the other is 1). 
+**Bitwise NOT (~):** Inverts each bit (0 becomes 1, and 1 becomes 0). 
+**Left Shift (<<):** Shifts the bits of a number to the left by a specified number of positions, filling the rightmost positions with zeros. 
+**Right Shift (>>):** Shifts the bits of a number to the right, filling the leftmost positions according to the type of shift (arithmetic or logical). 
+
 
           
 
