@@ -102,9 +102,73 @@ A bitwise operator performs a logical or bitwise operation on the individual bit
 **Left Shift (<<):** Shifts the bits of a number to the left by a specified number of positions, filling the rightmost positions with zeros. 
 **Right Shift (>>):** Shifts the bits of a number to the right, filling the leftmost positions according to the type of shift (arithmetic or logical). 
 
+| Operator | Name         | Description                                  | Example (a = 5, b = 3)        | Result (Decimal) | Result (Binary) |
+|----------|--------------|----------------------------------------------|-------------------------------|------------------|-----------------|
+| `&`      | AND          | Sets each bit to 1 if both bits are 1        | `a & b` → `5 & 3`             | 1                | `0001`          |
+| `|`      | OR           | Sets each bit to 1 if one of the bits is 1   | `a | b` → `5 | 3`             | 7                | `0111`          |
+| `^`      | XOR          | Sets each bit to 1 if bits are different     | `a ^ b` → `5 ^ 3`             | 6                | `0110`          |
+| `~`      | NOT          | Inverts all the bits                         | `~a` → `~5`                   | -6               | `...11111010`   |
+| `<<`     | Left Shift   | Shifts bits to the left, adds 0s on the right| `a << 1` → `5 << 1`           | 10               | `1010`          |
+| `>>`     | Right Shift  | Shifts bits to the right, discards rightmost | `a >> 1` → `5 >> 1`           | 2                | `0010`          |
 
-          
+# 🧮 DATA TYPES
+Data types in python define the type of value a variable holds _______ whether it's number, text, list, etc.
 
+### 🔢 Common Built-in Data Types in Python
+
+Some common built  in data types in python are given below.
+
+#### 1. Numeric Data Type
+Numeric data type represent different type of numbers such as Int, float and complex.
+##### Integer 
+Integer data type represents whole number which is stored in variable.
+##### Float
+Float data type represents decimal number which is stored in variable.
+##### Complex
+Complex data type represents complex number — number with real part and imaginary part.
+## Some Common Math Function 
+Some common math functions you can use in Python’s built-in math module, with examples.
+| Function               | Description                         | Example                        | Output           |
+|------------------------|-------------------------------------|-------------------------------|------------------|
+| `math.sqrt(x)`         | Square root                        | `math.sqrt(16)`                | `4.0`            |
+| `math.pow(x, y)`       | x raised to the power y            | `math.pow(2, 3)`               | `8.0`            |
+| `math.ceil(x)`         | Smallest integer ≥ x               | `math.ceil(4.2)`               | `5`              |
+| `math.floor(x)`        | Largest integer ≤ x                | `math.floor(4.7)`              | `4`              |
+| `math.sin(x)`          | Sine of x (x in radians)           | `math.sin(math.pi/2)`          | `1.0`            |
+| `math.cos(x)`          | Cosine of x (x in radians)         | `math.cos(0)`                 | `1.0`            |
+| `math.tan(x)`          | Tangent of x (x in radians)        | `math.tan(math.pi/4)`          | `1.0`            |
+| `math.log(x[, base])`  | Logarithm of x (default base e)    | `math.log(100, 10)`            | `2.0`            |
+| `math.exp(x)`          | Exponential function \(e^x\)       | `math.exp(2)`                 | `7.389056...`    |
+| `math.factorial(n)`    | Factorial of n (n!)                 | `math.factorial(5)`            | `120`            |
+## Functional Control Statement
+The if-elif-else statement is a fundamental control flow structure in many programming languages, including Python, used for making decisions and executing different blocks of code based on conditions. 
+
+
+- **if —** Tests a condition; runs code block if condition is True.
+
+- **elif —** “else if” — tests another condition if previous if or elif was False.
+
+- **else —** Runs if all previous conditions were False.          
+### Nested statement
+A nested statement in Python refers to placing one or more statements inside another statement.
+
+age = 25
+is_student = True
+
+if age >= 18:
+    print("You are an adult.")
+    if is_student:
+        print("You are also a student.")
+    else:
+        print("You are not a student.")
+else:
+    print("You are a minor.")
+
+### Short hand statement
+In Python, the shorthand if-else statement is also known as a conditional expression or ternary operator. It allows you to write a concise if-else statement on a single line, returning a value based on a condition
     
-
+    
+age = 20
+status = "Adult" if age >= 18 else "Minor"
+print(status)
 
