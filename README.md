@@ -152,6 +152,7 @@ The if-elif-else statement is a fundamental control flow structure in many progr
 ### Nested statement
 A nested statement in Python refers to placing one or more statements inside another statement.
 
+
 age = 25
 is_student = True
 
@@ -164,11 +165,13 @@ if age >= 18:
 else:
     print("You are a minor.")
 
+
 ### Short hand statement
-In Python, the shorthand if-else statement is also known as a conditional expression or ternary operator. It allows you to write a concise if-else statement on a single line, returning a value based on a condition
-    
+In Python, the shorthand if-else statement is also known as a conditional expression or ternary operator. It allows you to write a concise if-else statement on a single line, returning a value based on a condition  
     
 age = 20
+
 status = "Adult" if age >= 18 else "Minor"
+
 print(status)
 
