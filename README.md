@@ -197,6 +197,7 @@ If the condition never becomes false, then the loop will run forever called and 
 A for loop in python is used to iterate over a sequence and execute block of code for each item in iteration.
 
 **Syntax**
+
 		for item in sequence:
 		
 ## Nested Loop
@@ -226,11 +227,11 @@ The purpose of range function is to provide a sequence of numbers to iterate ove
 
 **Syntax**
 
-range(stop)
+		range(stop)
 
-range(start, stop)
+		range(start, stop)
 
-range(start, stop, step)
+		range(start, stop, step)
 
 ## Else Clause
 In python, for loop and while loop can have an else clause which is executable only if the loop is not terminated by break statement.
