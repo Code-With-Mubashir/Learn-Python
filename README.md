@@ -188,6 +188,7 @@ print(status)
 It is control flow statement in python which allows code to be executed repeatedly as long as the condition is true.
 
 **Syntax**
+
 	While condition:
 	
 ## Infinite loop
@@ -202,7 +203,9 @@ A for loop in python is used to iterate over a sequence and execute block of cod
 A loop inside another loop is called nested loop. You can nest for loops, while loops, or mix them.
 
 **Syntax**
+
 	For outer in outer sequence:
+	
 	For inner in inner sequence:
 	
 ## Loop Control Statements
@@ -222,8 +225,11 @@ Range function in python is used to generate a sequence of numbers, which is com
 The purpose of range function is to provide a sequence of numbers to iterate over in loop.
 
 **Syntax**
+
 range(stop)
+
 range(start, stop)
+
 range(start, stop, step)
 
 ## Else Clause
@@ -231,20 +237,30 @@ In python, for loop and while loop can have an else clause which is executable o
 
 
 **Syntax**
+
 for item in iterable:
+
     ***loop body***
+	
     if condition:
+	
         break
 else:
+
     *** runs only if the loop wasn't broken***
 	
 	
 **Syntax**
+
 while condition:
+
     ***loop body***
+	
     if condition_to_break:
+	
         break
 else:
+
     *** runs only if loop ended normally (not by break)***
 
 
