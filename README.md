@@ -186,24 +186,31 @@ print(status)
 
 # 1.While_Loop
 It is control flow statement in python which allows code to be executed repeatedly as long as the condition is true.
+
 **Syntax**
 	While condition:
+	
 ## Infinite loop
 If the condition never becomes false, then the loop will run forever called and infinite loop.
 # 2. For_Loop
 A for loop in python is used to iterate over a sequence and execute block of code for each item in iteration.
+
 **Syntax**
 		for item in sequence:
+		
 ## Nested Loop
 A loop inside another loop is called nested loop. You can nest for loops, while loops, or mix them.
+
 **Syntax**
 	For outer in outer sequence:
 	For inner in inner sequence:
+	
 ## Loop Control Statements
 Loop control statements help you change the normal flow of loop. They help you:
 -	Break the loop
 -	Exit the certain iteration of loop
 -	Add placeholder
+-	
 ### 1.Break Statement
 Break statement stops the loop completely, even if the condition is still True.
 ### 2. Continue statement
@@ -213,12 +220,16 @@ Pass statement does nothing. It’s used when a statement is syntactically requi
  ## Range Function
 Range function in python is used to generate a sequence of numbers, which is commonly used in loops especially for loops.
 The purpose of range function is to provide a sequence of numbers to iterate over in loop.
+
 **Syntax**
 range(stop)
 range(start, stop)
 range(start, stop, step)
+
 ## Else Clause
 In python, for loop and while loop can have an else clause which is executable only if the loop is not terminated by break statement.
+
+
 **Syntax**
 for item in iterable:
     ***loop body***
@@ -226,6 +237,8 @@ for item in iterable:
         break
 else:
     *** runs only if the loop wasn't broken***
+	
+	
 **Syntax**
 while condition:
     ***loop body***
